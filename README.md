@@ -1,6 +1,6 @@
 # b1-app
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Демо - [https://capable-jalebi-a6c9f0.netlify.app/](https://capable-jalebi-a6c9f0.netlify.app/)
 
 ## Описание
 
