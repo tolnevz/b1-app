@@ -16,7 +16,7 @@
 
   const dataModel = defineModel<IProduct[]>('dataModel');
   const selected = ref<SelectedModel[]>([]);
-  const paginationProps1 = ref<IPaginationAttributes>({
+  const paginationProps = ref<IPaginationAttributes>({
     visible: true,
     totalRows: dataModel.value?.length,
   });
@@ -65,7 +65,7 @@
       :multi-sort="false"
       :multi-select="true"
       :draggable-column="true"
-      :pagination="paginationProps1"
+      :pagination="paginationProps"
       :show-filters="true"
       show-selection
       show-footer
